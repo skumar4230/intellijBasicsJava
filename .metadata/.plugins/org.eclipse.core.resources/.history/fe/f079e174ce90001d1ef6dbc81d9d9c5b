@@ -1,0 +1,17 @@
+package com.infy;
+
+import java.util.Iterator;
+
+public class Threading_in {
+	//main method represent main thread
+	public static void main(String[] args) {
+		//whatever we write in here will be executed by main method
+	//thread always execute in sequence
+		System.out.println("==Application Started");
+		for(int i =0;i<=10;i++) {
+			System.out.println("Printing number "+i);
+		}
+		System.out.println("==Application FInished");
+}
+
+}

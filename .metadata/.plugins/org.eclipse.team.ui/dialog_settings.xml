@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportPSFDialog">
+	</section>
+	<section name="SynchronizeViewSettings">
+		<item key="linkWithEditor" value="false"/>
+		<item key="lastactiveparticipant_id" value="org.eclipse.egit.ui.modelCompareParticipant"/>
+		<item key="lastactiveparticipant_sec_id" value="1688192164556"/>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1688191948413">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1688192164556">
+		</section>
+	</section>
+</section>

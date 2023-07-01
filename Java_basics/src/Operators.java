@@ -1,0 +1,47 @@
+public class Operators {
+    public static void main(String args[]){
+        System.out.println("These are unary operators");
+        int x=10;
+        System.out.println(x++);//10 (11)//print value then increase by 1
+        System.out.println(++x);//12/ increase by 1 then print value
+        System.out.println(x--);//12 (11)print value then decrease by 1
+        System.out.println(--x);//10//decrease by 1 then print value
+        System.out.println("example");
+        int a=10;
+        int b=10;
+        System.out.println(a++ + ++a);//10+12=22
+        System.out.println(b++ + b++);//10+11=21
+         a=10;
+         b=-10;
+        boolean c=true;
+        boolean d=false;
+        System.out.println(~a);//-11 (minus of total positive value which starts from 0)
+        System.out.println(~b);//9 (positive of total minus, positive starts from 0)
+        System.out.println(!c);//false (opposite of boolean value)
+        System.out.println(!d);//true
+        System.out.println("Arithmetic operators");
+         a=10;
+         b=5;
+        System.out.println(a+b);//15
+        System.out.println(a-b);//5
+        System.out.println(a*b);//50
+        System.out.println(a/b);//2
+        System.out.println(a%b);// gives remainder 0
+        System.out.println(10*10/5+3-1*4/2);
+//        "Multiplication and division are performed from left to right.
+//        Addition and subtraction are performed from left to right.
+//                So, the order of evaluation for the expression 10*10/5+3-1*4/2 is:
+//
+//        10 * 10 = 100
+//        100 / 5 = 20
+//        20 + 3 = 23
+//        1 * 4 = 4
+//        4 / 2 = 2
+//        23 - 2 = 21
+//        Therefore, the output of the program will be 21."
+       int inc =45;
+       inc++;//will increase by 1
+       System.out.println("Hello");	
+       System.out.println(inc++);//will print then increase
+    }
+}

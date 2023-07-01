@@ -1,0 +1,16 @@
+package com.infy;
+
+import java.util.PriorityQueue;
+
+public class Queue {
+ public static void main(String[] args) {
+	java.util.Queue<String> queue = new PriorityQueue<>();
+	queue.add("America");
+	queue.add("India");
+	queue.add("Argentina");
+	
+	System.out.println("original queue: "+queue);
+	
+	queue.remove();
+}
+}

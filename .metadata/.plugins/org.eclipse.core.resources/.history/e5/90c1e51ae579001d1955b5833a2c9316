@@ -1,0 +1,21 @@
+package com.infy;
+
+import java.util.PriorityQueue;
+
+public class Queue {
+ public static void main(String[] args) {
+	java.util.Queue<String> queue = new PriorityQueue<>();
+	queue.add("America");
+	queue.add("India");
+	queue.add("Germany");
+	
+	System.out.println("original queue: "+queue);
+	
+	queue.remove();
+	System.out.println("queue after removing the head element:"+queue);
+	String head = queue.poll();
+	 System.out.println("removed head: "+head);
+	 
+	 System.out.println("queue now looks like: "+queue);
+}
+}
